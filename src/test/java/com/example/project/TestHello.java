@@ -14,7 +14,7 @@ public class TestHello {
    @Test
    public void testHelloWorld()
    {
-     PrintStream originalOut = System.out;
+     PrintStream originalOut = System.out.println("Words,woRds,worDs");
      ByteArrayOutputStream bos = new ByteArrayOutputStream();
      System.setOut(new PrintStream(bos));
 
